@@ -1,0 +1,509 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#yla {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.1em;
+}
+
+#yla li {
+  padding-right: 1em;
+}
+
+#yla li:first-child {
+  padding: 0;
+}
+
+#linkit li {
+   padding-left: 1em;
+   margin-bottom: 0.7em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#linkit  li:first-child {
+   border-left: 1px solid #8B8C8E;
+}
+
+#ala {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 13px;
+}
+
+#ala li {
+  padding: 0;
+  margin: 0;
+  clear: left;
+  text-transform: uppercase;
+  color: white;
+}
+
+.vasen li {
+  list-style-type: none;
+  background-color: #182121;
+  float: left;
+  padding: 0;
+  margin: 0;
+  font: 0.9em "Trebuchet MS";
+}
+
+.navbar {
+  background-color: #1E2023;
+  min-height: 3.5em;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  overflow: auto;
+}
+
+#hakukuvat li {
+  float: right;
+  padding: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-right: 2em;
+}
+
+#hakukuvat li:last-child {
+  width: 20%;
+}
+
+#hakukuvat li:last-child input {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin: 0;
+  margin-top: -6px;
+  background-color: #E7E7E7;
+  height: 2em;
+  color: #A5A5A5;
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  line-height: 1.9;
+  vertical-align: middle;
+  text-align: left;
+  border-radius: 4px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#varit {
+  padding: 0;
+  margin: 0;
+}
+
+#varit ul {
+  padding:0;
+  margin: 0;
+}
+
+#varit li {
+  list-style-type: none;
+  float: left;
+  height: 6px;
+  width: 14.285%;
+  padding: 0;
+  margin: 0;
+}
+
+#pun {
+  background-color: #D62129;
+}
+
+#ora {
+  background-color: #FF8C31;
+}
+
+#kel {
+  background-color: #FFBD29;
+}
+
+#vih {
+  background-color: #5B9F49;
+}
+
+#vsin {
+  background-color: #10ADDE;
+}
+
+#tsin {
+  background-color: #0052AD;
+}
+
+#vio {
+  background-color: #AD52A5;
+}
+
+
+
+#content {
+  background-color: white;
+  padding: 0;
+  margin-left: 1%;
+  font-family: Trebuchet MS;
+  clear: right;
+}
+
+#viimeisimmat {
+  width: 100%;
+  padding: 0;
+  padding-bottom: 0.1em;
+  margin: 0;
+  margin-top: 6px;
+  height: 2em;
+  overflow: hidden;
+  border-bottom: 1px solid #D6D6D6;
+}
+
+#viimeisimmat a:hover {
+  color: #FFAA33;
+}
+
+#tahti {
+  width: 1.5em;
+  border-right: 1px solid #D6D6D6;
+  padding: 6.5px;
+  margin: 0;
+  margin-right: 2px;
+}
+
+#viimeisimmat li {
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-left: 2px;
+}
+
+#viimeisimmat ul {
+  margin: 0;
+  padding: 0;
+}
+
+#recent {
+  color: #B3B3B3;
+  font-size: 0.7em;
+  border-left: 1px solid #D6D6D6;
+  height: 3.5em;
+  margin: 0;
+  vertical-align: middle;
+  line-height: 1.5em;
+}
+
+#lista li:first-child {
+  margin-left: -5.3em;
+}
+
+#lista li {
+  line-height: 2.5em;
+  vertical-align: middle;
+  padding: 0;
+  padding-left: 1.5em;
+  margin: 0;
+  margin-top: 0.3em;
+  font-size: 0.9em;
+}
+
+#lista li a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #0073A5;
+}
+
+h1 {
+  font: 200% "Trebuchet MS";
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5em;
+  clear: left;
+}
+
+#jkl {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2.5em;
+  clear: right;
+}
+
+#jkl ul {
+  padding: 0;
+  margin: 0;
+}
+
+#jkl li {
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+  padding-right: 0.3em;
+  font-size: 1em;
+}
+
+#jkl a {
+  text-decoration: none;
+  color: #0073A5;
+}
+
+#jkl a:hover {
+  color: #FFAA33;
+}
+
+#jkl li:nth-child(3) {
+  border-left: 1px #D6D6D6 solid;
+  padding-left: 0.5em;
+}
+
+#jkl li:nth-child(2) {
+  padding-right: 0.5em;
+}
+
+#jkl li:last-child {
+  margin-top: 4px;
+}
+
+#yksi {
+  padding: 0;
+  margin: 0;
+  border: solid 1px #D6D6D6;
+  border-left: 0;
+  overflow: auto;
+  width: 100%;
+  padding-top: 0.5em;
+}
+
+#yksi a:hover {
+  color: #FFAA33;
+}
+
+#paivitys {
+  clear: left;
+}
+
+.vierekkain {
+  clear: right;
+  padding: 0;
+  margin-left: -8px;
+}
+
+.vierekkain li {
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  border-left: 1px #D6D6D6 solid;
+  font-size: 0.9em;
+}
+
+.vierekkain li:first-child {
+  border: none;
+}
+
+#kuvat li {
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+  padding-left: 10%;
+  padding-top: 0.6%;
+}
+
+#kuvat {
+  clear: left;
+  height: 8em;
+  padding: 0;
+  margin-left: 2px;
+}
+
+#kuvat li:first-child {
+  padding-left: 0;
+}
+
+#kuvat p {
+  font-size: 0.9em;
+}
+
+#kuvat li:first-child p {
+  font-size: 1em;
+}
+
+#lampo span {
+  color: #B6C609;
+}
+
+#vertaus span {
+  color: #10ADDE;
+}
+
+#vertaus {
+  margin: 0;
+  padding: 0;
+  margin-left: 2px;
+  clear: left;
+}
+
+#tanaanjaeilen {
+  list-style-type: none;
+  padding-left: 3px;
+  margin-top: 1em;
+  min-height: 5em;
+}
+
+#tanaan {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#tanaan li {
+  margin: 0.09em;
+}
+
+#vika {
+  clear: left;
+}
+
+#eilen {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#eilen li {
+  margin: 0.09em;
+}
+
+#tanaan {
+  float: left;
+  padding-right: 3%;
+  margin-top: 0.1em;
+  clear: left;
+}
+
+#eilen {
+  float: left;
+} 
+
+#eilen a {
+  text-decoration: none;
+  color: #0073A5;
+}
+
+.high {
+  color: #D62129;
+}
+
+.low {
+  color: #0052AD;
+}
+
+#kaksi {
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  min-width: 140px;
+}
+
+.not {
+  font-style: italic;
+}
+
+#osat {
+  width: 98%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.osa {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#osa1 {
+  width: 33%;
+}
+
+#osa2 {
+  width: 28%; 
+}
+
+#osa3 {
+  width: 39%;
+}
+
+#taulu {
+  padding: 0;
+  margin: 0;
+  padding-top: 1.2%;
+  padding-left: 3%;
+  width: 100%;
+  border-top: 1px #D6D6D6 solid;
+  border-right: 1px #D6D6D6 solid;
+}
+
+tr {
+  line-height: 1.4em;
+}
+
+#lisatieto {
+  padding: 0;
+  margin: 0;
+  padding-right: 2%;
+  border-right: 1px #D6D6D6 solid;
+  margin-left: 7%;
+  padding-top: 0.3em;
+  word-spacing: 0.5em;
+  font-size: 0.9em;
+  line-height: 1.45em;
+}
+
+.viivaus a {
+  border-bottom: 1px dashed #5A9C4A;
+  text-decoration: none;
+  color: #000000;
+}
+
+#napit li {
+  list-style-type: none;
+  float: left;
+}
+
+#napit input {
+  opacity: 0.01;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: -1em;
+  left: -1em;
+  right: 0;
+  bottom: 0;
+}
+
+#napit label {
+  padding: 0;
+  margin: 0;
+}
+
+#napit input:checked + label {
+  background-color: yellow;
+}
+
+#karttakuva {
+  padding: 0;
+  margin: 0;
+}
+
+#karttakuva img {
+  width: 100%;
+}

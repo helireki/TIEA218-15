@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
+
+<head>
+  <title>Reseptisovellus</title>
+  <link href="resepti.css" rel="StyleSheet" type="text/css" />
+  <script type="text/javascript" src="jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="resepti.js"></script>
+</head>
+
+<body id="bodi">
+<h1>Reseptisovellus</h1>
+
+<div id="vasen">
+<ul id="reseptilistaus">
+</ul>
+
+<h2 id="pun1">Lisää uusi resepti täyttämällä kentät.</h2>
+<span id="onnistui">Lisäys onnistui!</span><span id="ei">Lisäyksessä tapahtui virhe.</span>
+
+<form method="post" >
+<p>
+  <label for="nimi">Reseptin nimi</label>
+  <input type="text" id="nimi" name="nimi"/>
+  <span id="nimis">Reseptin nimi ei saa olla tyhjä.</span>
+</p>
+<p>
+  <label for="kuvaus">Reseptin kuvaus</label>
+  <input type="text" id="kuvaus" name="kuvaus"/>
+</p>
+<p>
+  <label for="hlo">Henkilömäärä</label>
+  <input type="number" id="hlo" name="hlo" min="1"/>
+  <span id="hlos">Määrä pitää olla numero, 1 tai enemmän.</span>
+</p>
+<p>
+  <label for="list">Ruokalajit</label>
+  <select id="list" name="lajit"></select>
+</p>
+<p><label>Ohjeen vaiheet:</label></p>
+<p>
+  <label for="vaihe1">1. vaihe</label>
+  <input type="text" id="vaihe1" name="vaihe1" class="vaihe"/>
+</p>
+<p>
+  <label for="vaihe2">2. vaihe</label>
+  <input type="text" id="vaihe2" name="vaihe2" class="vaihe"/>
+</p>
+<p>
+  <label for="vaihe3">3. vaihe</label>
+  <input type="text" id="vaihe3" name="vaihe3" class="vaihe"/>
+</p>
+<p>
+  <label for="vaihe4">4. vaihe</label>
+  <input type="text" id="vaihe4" name="vaihe4" class="vaihe"/>
+</p>
+<p>
+  <label for="vaihe5">5. vaihe</label>
+  <input type="text" id="vaihe5" name="vaihe5" class="vaihe"/>
+</p>
+<p>
+  <label for="vaihe6">6. vaihe</label>
+  <input type="text" id="vaihe6" name="vaihe6" class="vaihe"/>
+</p>
+<p>
+  <label for="vaihe7">7. vaihe</label>
+  <input type="text" id="vaihe7" name="vaihe7" class="vaihe"/>
+</p>
+<p>
+  <label for="vaihe8">8. vaihe</label>
+  <input type="text" id="vaihe8" name="vaihe8" class="vaihe"/>
+</p>
+<p>
+  <label for="vaihe9">9. vaihe</label>
+  <input type="text" id="vaihe9" name="vaihe9" class="vaihe"/>
+</p>
+<p>
+  <label for="vaihe10">10. vaihe</label>
+  <input type="text" id="vaihe10" name="vaihe10" class="vaihe"/>
+</p>
+<p><input type="button" name="lisaa" id="lisaa" value="Lisää" /></p>
+</form>
+
+</div> <!--vasen div-->
+
+<div id="oikea">
+<h2 id="pun2">Valitse muokattava ruokalaji listasta tai lisää uusi.</h2>
+
+<form method="post">
+<p>
+  <label for="list2">Ruokalajit</label>
+  <select id="list2" name="lajit"></select>
+</p>
+<p><input name="valitse" value="Valitse" type="button" id="valitse"/></p>
+</form>
+
+<div id="tiedot">
+</div>
+
+<span id="ruoka_viesti"></span>
+
+<div id="muok_oikea">
+<h2 class="hidden" id="pun3">Muokkaa reseptiä.</h2>
+<span id="muok_onnistui">Muokkaus onnistui!</span><span id="muok_ei">Muokkauksessa tapahtui virhe.</span>
+<h3 class="hidden" id="res_otsikko"></h3>
+
+<form method="post" class="hidden" name="muok">
+<p>
+  <label for="muok_nimi">Reseptin nimi</label>
+  <input type="text" id="muok_nimi"/>
+  <span id="muok_nimis">Reseptin nimi ei saa olla tyhjä.</span>
+</p>
+<p>
+  <label for="muok_kuvaus">Reseptin kuvaus</label>
+  <input type="text" id="muok_kuvaus"/>
+</p>
+<p>
+  <label for="muok_hlo">Henkilömäärä</label>
+  <input type="number" id="muok_hlo" min="1"/>
+  <span id="muok_hlos">Määrä pitää olla numero, 1 tai enemmän.</span>
+</p>
+<p>
+  <label for="list3">Ruokalajit</label>
+  <select id="list3"></select>
+</p>
+<p><label>Ohjeen vaiheet:</label></p>
+<p>
+  <label for="muok_vaihe1">1. vaihe</label>
+  <input type="text" id="muok_vaihe1" class="vaihe"/>
+</p>
+<p>
+  <label for="muok_vaihe2">2. vaihe</label>
+  <input type="text" id="muok_vaihe2" class="vaihe"/>
+</p>
+<p>
+  <label for="muok_vaihe3">3. vaihe</label>
+  <input type="text" id="muok_vaihe3" class="vaihe"/>
+</p>
+<p>
+  <label for="muok_vaihe4">4. vaihe</label>
+  <input type="text" id="muok_vaihe4" class="vaihe"/>
+</p>
+<p>
+  <label for="muok_vaihe5">5. vaihe</label>
+  <input type="text" id="muok_vaihe5" class="vaihe"/>
+</p>
+<p>
+  <label for="muok_vaihe6">6. vaihe</label>
+  <input type="text" id="muok_vaihe6" class="vaihe"/>
+</p>
+<p>
+  <label for="muok_vaihe7">7. vaihe</label>
+  <input type="text" id="muok_vaihe7" class="vaihe"/>
+</p>
+<p>
+  <label for="muok_vaihe8">8. vaihe</label>
+  <input type="text" id="muok_vaihe8" class="vaihe"/>
+</p>
+<p>
+  <label for="muok_vaihe9">9. vaihe</label>
+  <input type="text" id="muok_vaihe9" class="vaihe"/>
+</p>
+<p>
+  <label for="muok_vaihe10">10. vaihe</label>
+  <input type="text" id="muok_vaihe10" class="vaihe"/>
+</p>
+<p><input type="button" name="tallenna" id="tallenna" value="Tallenna" /></p>
+</form>
+
+</div> <!--muok_oikea-->
+
+</div> <!--oikea div-->
+
+</body>
+</html>

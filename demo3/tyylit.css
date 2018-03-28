@@ -1,0 +1,50 @@
+td {
+min-height: 50px;
+min-width: 50px;
+margin: 0;
+padding: 0;
+border: 0px solid silver;
+text-align:center;
+vertical-align: top;
+background-color: white;
+}
+
+.tyhja {
+border: 4px groove silver;
+min-width: 50px;
+min-height: 50px;
+margin: 0;
+padding: 0;
+background-color: silver;
+display: block;
+color: silver;
+}
+
+.miina {
+padding: 15px;
+margin-bottom: 0px;
+margin-left: 5px;
+min-width: 40px;
+min-height: 40px;
+max-width: 40px;
+background: url(http://users.jyu.fi/~helireki/cgi-bin/mine.svg);
+display: block;
+border: 0;
+color: transparent;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.ruutu {
+margin: 0;
+padding: 0;
+}
+
+form {
+padding: 0;
+margin: 0;
+}
+
+tr {
+height: 50px;
+}

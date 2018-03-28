@@ -1,0 +1,55 @@
+.hidden {
+    display: none;
+}
+
+#vasen {
+	float: left;
+	width: 50%;
+}
+
+#oikea {
+	float: right;
+	width: 50%;
+}
+
+.ulko {
+    width: 70%;
+	color: rgb(47, 101, 3);
+	text-decoration: underline;
+}
+
+.ulko:hover {
+    color: #BD7424;
+}
+
+.ulko_eka {
+	width: 70%;
+}
+
+#reseptilistaus {
+	width: 100%;
+}
+
+h2 {
+	width: 90%;
+}
+
+form {
+	width: 90%;
+}
+
+span {
+	widht: 50%;
+}
+
+#pun1 {
+    color: #2C589F;
+}
+
+#pun2 {
+    color: #2C589F;
+}
+
+#pun3 {
+    color: #2C589F;
+}

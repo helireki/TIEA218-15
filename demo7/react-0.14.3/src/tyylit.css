@@ -1,0 +1,30 @@
+@media all {
+    .sisa {
+        padding: 0;
+        padding-left: 1.2em;
+    }
+
+    .ekapoisto {
+        list-style-type: none;
+    }
+    
+    #vasen {
+	  width: 100%;
+    }
+
+    #oikea {
+	    width: 100%;
+    }
+}
+
+@media all and (min-width: 512px) {
+    #vasen {
+	  float: left;
+	  width: 50%;
+    }
+
+    #oikea {
+	    float: right;
+	    width: 50%;
+    }
+}
